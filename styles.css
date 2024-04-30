@@ -71,3 +71,90 @@ body {
     height: 100%;
     background-color: blueviolet;
 }
+
+/* Search Page */
+
+.SearchPage-SearchBar {
+    margin-top: 5%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.SearchPage-FilterContainer {
+    background-color: lightgray;
+    height: 3rem;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.SearchPage-FilterBox {
+    background-color: lightslategrey;
+    height: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.SearchPage-FilterBox>img {
+    height: 65%;
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+}
+
+.SearchPage-WebtoonInfoBoxContainer {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(24rem, 1fr));
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.SearchPage-WebtoonInfoBox {
+    background-color: lightgray;
+    display: flex;
+    width: 24rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SearchPage-WebtoonInfoBoxSummary {
+    background-color: darkgray;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchPage-ImgGenreContainer {
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SearchPage-WebtoonInfoBoxImg {
+    height: 60%;
+    width: 100%;
+}
+
+.SearchPage-WebtoonInfoBoxGenres {
+    background-color: hotpink;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

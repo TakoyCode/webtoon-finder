@@ -4,20 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webtoon Blog</title>
+    <title>Webtoon Finder</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
 <body>
     <div id="app">
-        <nav-bar></nav-bar>
-        <main-page></main-page>
+        <nav-bar @change-page="changePage"></nav-bar>
+        <main-page v-if="currentPage == null"></main-page>
+        <search-page v-else-if="currentPage == 'search-page'"></search-page>
     </div>
 
     <script src="main.js"></script>
     <script src="components/NavBar.js"></script>
     <script src="components/MainPage.js"></script>
+    <script src="components/SearchPage.js"></script>
 
     <script>
         const mountedApp = app.mount('#app')

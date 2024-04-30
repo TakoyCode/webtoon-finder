@@ -1,0 +1,16 @@
+Du skal lage en nettside som du kan bruke til å finne nye webtoons!
+
+Du trenger
+
+En lande side som bruker Paralax scrolling
+	- denne skal vise ca. hva nettsiden kan gjøre og linke deg til relevant side	
+	- Kansje dette kan være en bok som du må scrolle for å åpne?
+
+En side som du kan søke/finne etter nye webtoons
+	- her burde du kunne også filtrere mellom forskjellige genres
+
+En side som viser webtoons du har favorita, som at du kan se på de senere
+
+En side som viser informasjon og hvor du kan finne den når du trykker på den
+
+Bruke API-en til mangaupdates (https://api.mangaupdates.com/) til å få inn info om webtoons
