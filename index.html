@@ -12,6 +12,7 @@
 <body>
     <div id="app">
         <nav-bar @change-page="changePage"></nav-bar>
+        <button @click="fetchData" style="width: 5rem; height: 5rem;">Test</button>
         <main-page v-if="currentPage == null"></main-page>
         <search-page v-else-if="currentPage == 'search-page'"></search-page>
     </div>
